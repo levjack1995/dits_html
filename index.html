@@ -6,13 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dev-Incubator</title>
   </head>
-  <body class="body">
+  <body class="login-body">
     <header class="header">
       <nav class="wrapper header__nav nav">
         <img src="img/logo.svg" alt="logo of dev-incubator" class="nav__logo" />
         <span class="nav__authentication">Authentication required</span>
       </nav>
     </header>
-    <main class="main-login"></main>
+    <main>
+      <h1 class="hidden-visibility">Sign in</h1>
+      <div class="wrapper sign-in">
+        <div class="sign-in__dev-img"></div>
+        <form action="#" method="post" class="sign-in__login-form login-form">
+          <div class="login-form__sign-in-text">Sign in</div>
+          <div class="login-form__field field">
+            <label for="login" class="field__label">Login</label>
+            <input type="text" class="login-form__input" id="login" />
+            <div class="field field__warn" id="login-input">
+              *login is too short
+            </div>
+          </div>
+          <div class="login-form__field field">
+            <label for="login" class="field__label">Password</label>
+            <input type="password" class="login-form__input" id="password" />
+            <div class="field field__warn" id="password-input">
+              *password is wrong
+            </div>
+          </div>
+          <button type="submit" class="login-form__submit button"></button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>

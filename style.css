@@ -1,8 +1,13 @@
+.hidden-visibility {
+  visibility: hidden;
+}
+
 .header {
   background-color: #012438;
 }
-.body {
+.login-body {
   margin: 0;
+  background-color: #0a2b3e;
 }
 
 .wrapper {
@@ -26,4 +31,55 @@
 .nav__authentication {
   align-self: center;
   color: #17ac19;
+}
+
+.sign-in {
+  display: flex;
+}
+
+.sign-in__dev-img {
+  background-image: url(img/dev-img.png);
+  height: 340px;
+  width: 240px;
+  background-size: cover;
+}
+
+.login-form {
+  width: 390px;
+  background: #fafafa;
+}
+
+.login-form {
+  padding: 35px 55px;
+}
+
+.login-form__sign-in-text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field__label {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.field__warn {
+  font-size: 14px;
+  line-height: 18px;
+  color: #dc3545;
+}
+
+.button {
+  height: 50px;
+  color: #007802;
+}
+
+.login-form__submit {
+  width: 100%;
 }
