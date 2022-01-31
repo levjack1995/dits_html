@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <style>
-      body * {
-        margin: 10px;
-        border: 1px solid blue;
-      }
-    </style>
-
-    <form onclick="alert('form')">
-      FORM
-      <div onclick="alert('div')">
-        DIV
-        <p onclick="alert('p')">P</p>
-      </div>
-    </form>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dev-Incubator</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav class="wrapper header__nav nav">
+        <img src="img/logo.svg" alt="logo of dev-incubator" class="nav__logo" />
+        <span class="nav__authentication">Authentication required</span>
+      </nav>
+    </header>
+    <main class="main-login"></main>
   </body>
 </html>

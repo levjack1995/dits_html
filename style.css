@@ -1,0 +1,29 @@
+.header {
+  background-color: #012438;
+}
+.body {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 0 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.nav__logo {
+  margin: 25px 0;
+}
+
+.nav__authentication {
+  align-self: center;
+  color: #17ac19;
+}
